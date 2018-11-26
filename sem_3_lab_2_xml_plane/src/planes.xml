@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <planes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="planesNS"
+        xsi:schemaLocation="com.company">
+    <plane model="Thales Watchkeeper WK450" id="ID-4214">
+        <origin>United Kingdom</origin>
+        <chars>
+            <type>reconnaissance</type>
+            <seats>1</seats>
+            <ammunition>false</ammunition>
+            <radar>true</radar>
+        </chars>
+        <parameters>
+            <height>1.8</height>
+            <length>3.4</length>
+            <wingspan>3.8</wingspan>
+        </parameters>
+        <price>8000000</price>
+    </plane>
+    <plane model="Boeing F-15SE" id="ID-2131">
+        <origin>USA</origin>
+        <chars>
+            <type>fighter</type>
+            <seats>2</seats>
+            <ammunition rockets="10">true</ammunition>
+            <radar>true</radar>
+        </chars>
+        <parameters>
+            <height>5.63</height>
+            <length>19.43</length>
+            <wingspan>13.0</wingspan>
+        </parameters>
+        <price>25000000</price>
+    </plane>
+    <plane model="J-20" id="ID-8751">
+        <origin>China</origin>
+        <chars>
+            <type>fighter</type>
+            <seats>1</seats>
+            <ammunition rockets="8">true</ammunition>
+            <radar>true</radar>
+        </chars>
+        <parameters>
+            <height>6.36</height>
+            <length>20.4</length>
+            <wingspan>13.5</wingspan>
+        </parameters>
+        <price>40000000</price>
+    </plane>
+    <plane model="Boeing C40 Clipper" id="ID-41241">
+        <origin>USA</origin>
+        <chars>
+            <type>transport</type>
+            <seats>5</seats>
+            <ammunition>0</ammunition>
+            <radar>true</radar>
+        </chars>
+        <parameters>
+            <height>12</height>
+            <length>42</length>
+            <wingspan>35.79</wingspan>
+        </parameters>
+        <price>32000000</price>
+    </plane>
+    </planes>
